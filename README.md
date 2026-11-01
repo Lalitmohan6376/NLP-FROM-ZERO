@@ -255,29 +255,41 @@ NLP-From-Zero/
 ├── README.md
 │
 ├── 01-Introduction-to-NLP/
+│   ├── 01-What-is-NLP.md
+│   ├── 02-NLP-Applications.md
+│   ├── 03-NLP-Workflow.md
+│   └── Code/
+│       └── first_nlp_model.py
 │
 ├── 02-Text-Processing-and-Tokenization/
+│   ├── 01-Text-Processing.md
+│   ├── 02-Tokenization.md
+│   ├── 03-Token-IDs.md
+│   ├── 04-Special-Tokens.md
+│   └── Code/
+│       ├── tokenizer.py
+│       ├── encoding.py
+│       └── padding_truncation.py
 │
 ├── 03-Text-Representation-and-Embeddings/
+│   ├── 01-Text-Representation.md
+│   ├── 02-Word-Embeddings.md
+│   ├── 03-Contextual-Embeddings.md
+│   └── Code/
+│       ├── token_embeddings.py
+│       ├── sentence_embeddings.py
+│       └── cosine_similarity.py
 │
 ├── 04-Transformer-Architecture/
-│
 ├── 05-Pretrained-Models/
-│
 ├── 06-NLP-Tasks/
-│
 ├── 07-Text-Generation/
-│
 ├── 08-Fine-Tuning/
-│
 ├── 09-Semantic-Understanding/
-│
 ├── 10-Chatbot-Development/
-│
 ├── 11-Advanced-NLP-Applications/
 │
 └── 12-Final-Projects/
-    │
     ├── Spam-Classifier/
     ├── Sentiment-Analysis/
     ├── NER-System/
