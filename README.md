@@ -280,15 +280,154 @@ NLP-From-Zero/
 │       ├── sentence_embeddings.py
 │       └── cosine_similarity.py
 │
-├── 04-Transformer-Architecture/
-├── 05-Pretrained-Models/
-├── 06-NLP-Tasks/
-├── 07-Text-Generation/
-├── 08-Fine-Tuning/
-├── 09-Semantic-Understanding/
-├── 10-Chatbot-Development/
-├── 11-Advanced-NLP-Applications/
+
+04-Transformer-Architecture/
 │
+├── 01-Introduction-to-Transformers.md
+├── 02-Transformer-Architecture.md
+├── 03-Encoder-and-Decoder.md
+├── 04-Self-Attention.md
+├── 05-Multi-Head-Attention.md
+├── 06-Positional-Encoding.md
+├── 07-Feed-Forward-Network.md
+├── 08-Transformer-Encoder-and-Decoder-Flow.md
+│
+└── Code/
+    ├── transformer_model.py
+    ├── self_attention.py
+    └── transformer_outputs.py
+
+
+05-Pretrained-Models/
+│
+├── 01-What-are-Pretrained-Models.md
+├── 02-Loading-Pretrained-Models.md
+├── 03-Understanding-Model-Checkpoints.md
+├── 04-Model-Architecture-Types.md
+├── 05-BERT-Model.md
+├── 06-GPT-Model.md
+├── 07-RoBERTa-and-DistilBERT.md
+├── 08-Using-Pretrained-Models.md
+│
+└── Code/
+    ├── load_pretrained_model.py
+    ├── bert_model.py
+    ├── gpt_model.py
+    └── model_inference.py
+
+
+06-NLP-Tasks/
+│
+├── 01-Introduction-to-NLP-Tasks.md
+├── 02-Text-Classification.md
+├── 03-Sentiment-Analysis.md
+├── 04-Named-Entity-Recognition.md
+├── 05-Part-of-Speech-Tagging.md
+├── 06-Question-Answering.md
+├── 07-Text-Summarization.md
+├── 08-Machine-Translation.md
+├── 09-Text-Classification-vs-Token-Classification.md
+│
+└── Code/
+    ├── text_classification.py
+    ├── sentiment_analysis.py
+    ├── named_entity_recognition.py
+    ├── pos_tagging.py
+    ├── question_answering.py
+    ├── text_summarization.py
+    └── machine_translation.py
+
+
+07-Text-Generation/
+│
+├── 01-Introduction-to-Text-Generation.md
+├── 02-Autoregressive-Text-Generation.md
+├── 03-Next-Token-Prediction.md
+├── 04-Generation-Strategies.md
+├── 05-Greedy-Search.md
+├── 06-Beam-Search.md
+├── 07-Top-K-and-Top-P-Sampling.md
+├── 08-Temperature-and-Randomness.md
+├── 09-Controlling-Text-Generation.md
+│
+└── Code/
+    ├── basic_text_generation.py
+    ├── greedy_search.py
+    ├── beam_search.py
+    ├── top_k_sampling.py
+    └── text_generation_parameters.py
+
+
+08-Fine-Tuning/
+│
+├── 01-Introduction-to-Fine-Tuning.md
+├── 02-Transfer-Learning.md
+├── 03-Full-Fine-Tuning.md
+├── 04-Dataset-Preparation.md
+├── 05-Tokenization-for-Fine-Tuning.md
+├── 06-Training-and-Validation.md
+├── 07-Training-Arguments.md
+├── 08-Evaluation-and-Metrics.md
+├── 09-LoRA-and-PEFT.md
+│
+└── Code/
+    ├── prepare_dataset.py
+    ├── tokenize_dataset.py
+    ├── fine_tuning.py
+    ├── model_evaluation.py
+    └── lora_fine_tuning.py
+
+
+09-Semantic-Understanding/
+│
+├── 01-Introduction-to-Semantic-Understanding.md
+├── 02-Semantic-Similarity.md
+├── 03-Sentence-Similarity.md
+├── 04-Semantic-Search.md
+├── 05-Textual-Entailment.md
+├── 06-Paraphrase-Detection.md
+├── 07-Question-Semantic-Matching.md
+│
+└── Code/
+    ├── semantic_similarity.py
+    ├── sentence_similarity.py
+    ├── semantic_search.py
+    ├── textual_entailment.py
+    └── paraphrase_detection.py
+
+
+10-Chatbot-Development/
+│
+├── 01-Introduction-to-Chatbots.md
+├── 02-Chatbot-Architecture.md
+├── 03-Understanding-Conversation-Context.md
+├── 04-Conversation-History.md
+├── 05-Chatbot-Response-Generation.md
+├── 06-Handling-User-Inputs.md
+├── 07-Building-an-NLP-Chatbot.md
+│
+└── Code/
+    ├── basic_chatbot.py
+    ├── conversation_history.py
+    ├── context_aware_chatbot.py
+    └── nlp_chatbot.py
+
+
+11-Advanced-NLP-Applications/
+│
+├── 01-Advanced-NLP-Overview.md
+├── 02-Text-Classification-Pipeline.md
+├── 03-Multi-Label-Text-Classification.md
+├── 04-Extractive-and-Abstractive-Summarization.md
+├── 05-Information-Extraction.md
+├── 06-Text-Generation-Applications.md
+├── 07-Real-World-NLP-Workflows.md
+│
+└── Code/
+    ├── multi_label_classification.py
+    ├── information_extraction.py
+    ├── advanced_summarization.py
+    └── nlp_pipeline.py
 └── 12-Final-Projects/
     ├── Spam-Classifier/
     ├── Sentiment-Analysis/
