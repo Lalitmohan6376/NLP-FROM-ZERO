@@ -1,4 +1,4 @@
-# 🧠 NLP From Zeros
+# 🧠 NLP From Zero
 
 ### 🚀 A Complete Guide to Natural Language Processing — From Fundamentals to Practical Applications
 
